@@ -84,6 +84,10 @@ git stash apply stash@{2}      # 恢复指定条目（保留）
 | 换行符警告 `LF will be replaced by CRLF` | Windows 换行符设置 | `git config --global core.autocrlf true` |
 | 提交了不该提交的文件 | 已在工作区 | 加到 `.gitignore` 后 `git rm --cached <file>` |
 
+## 九、常用别名
+
+把 `git st`、`git lg`、`git undo` 这些短命令配好，日常能省不少敲键盘的力气。配置方法与完整清单见 [ALIASES.md](ALIASES.md)。
+
 ## License
 
 MIT
